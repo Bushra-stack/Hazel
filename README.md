@@ -24,7 +24,7 @@ Bitbucket für mercurial wie GitHub für Git
  
 ## Name 2 differences between git and other version control systems:
 1. Git is a distributed version control system whereas SVN is a centralized version control system. This means that every user has a complete copy of the repository and its entire history, rather than relying on a central server for version control. 
-	* increased speed and reliability, offline work capability, and better security.
+* increased speed and reliability, offline work capability, and better security.
 2. Git has a flexible and powerful branching and merging model compared to other version control systems. 
 3. Git has a large and active community, and its open-source nature
  
