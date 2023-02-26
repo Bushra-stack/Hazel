@@ -2,10 +2,8 @@
 # Directories
 Hazel/.vs/
 .vs/
-
-
-bin/
-bin-int/
+Hazel/bin/
+Hazel/bin-int/
 
 #Files
-.user
+*.user
