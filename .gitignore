@@ -1,2 +1,11 @@
 # Ignore Mac system files
-/.vs
+# Directories
+Hazel/.vs/
+.vs/
+
+
+bin/
+bin-int/
+
+#Files
+.user
