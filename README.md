@@ -1,4 +1,6 @@
 # Hazel
+
+## Exercise 1
 ## What is the difference between git and github?
 ### What Is Git?
 Version control system. Git is installed and maintained on your local system and gives a record of your ongoing programming versions. It can be used completely exclusive of any cloud-hosting service — you don’t even need internet access. Git is also specially designed to work well with text files(Code).  branching mode
@@ -36,3 +38,21 @@ Unity supports Perforce and Plastic.
 * game engine version dependencies. We should have a build script create a build from source code and assets. installed and generated files shouldn’t be in VC. They make the repository slow to copy and synchronize.
  
 
+## Exercise 2 
+## Describe a logging system with your own words:
+The purpose of the logging system is to provide the user with feedback about the system. It creates an ongoing record of application events (error, info, fatal, critical, warn, trace)
+
+## What is the difference between git submodules and git subtrees? 
+Git submodules have a smaller repository size since they are just links to a single commit in a subproject, whereas Git subtrees store the whole subproject, including its history. Subtrees are decentralized, while Git submodules must be accessible on the server.
+
+## What is a build system in C++? Name 3 build systems:
+Software build is a set of executable code that is ready for use by customers.
+In order to compile an application for a specific platform, you need to build the source code. When something changes, the source code has to be built again. 
+Build system enable developers to automate some programming tasks.
+Make, CMake, Premake, Ninja
+
+## What is a package manager in C++? Name 3 package manager: 
+A package manager is a system or set of tools used to automate installing, upgrading, configuring and using software. Most package managers are designed for discovering and installing developer tools.
+Conan is a package manager that lets C and C++ developers capture artifacts created during builds of applications and libraries, storing them as a Conan Package. Developers can access Conan Packages stored in Conan Center, a central repository with hundreds of open source applications and libraries
+
+Conan, vcpkg, Spack, Hunter.
