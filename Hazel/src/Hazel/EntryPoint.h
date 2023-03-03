@@ -5,7 +5,8 @@ extern Hazel::Application* Hazel::CreateApplication();
 #ifdef HZ_PLATFORM_WINDOWS
 
 int main(int argc, char** argv ) {
-	printf("Hello from my game engine");
+	printf("Hello from my game engine \n");
+
 	Hazel::Log::Init();
 	Hazel::Log::GetCoreLogger()->warn("Initialized Log!");
 	Hazel::Log::GetClientLogger()->info("Hello");
