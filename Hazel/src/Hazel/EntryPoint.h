@@ -5,10 +5,10 @@ extern Hazel::Application* Hazel::CreateApplication();
 #ifdef HZ_PLATFORM_WINDOWS
 
 int main(int argc, char** argv ) {
-	//printf("Hello from my game engine");
+	printf("Hello from my game engine");
 	Hazel::Log::Init();
-	//Hazel::Log::GetCoreLogger()->warn("Initialized Log!");
-	//Hazel::Log::GetClientLogger()->info("Hello");
+	Hazel::Log::GetCoreLogger()->warn("Initialized Log!");
+	Hazel::Log::GetClientLogger()->info("Hello");
 	HZ_CORE_WARN("Initialized Log!");
 	int a = 5;
 	HZ_INFO("Hello! var={0}",a);

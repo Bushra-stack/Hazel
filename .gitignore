@@ -4,6 +4,8 @@ Hazel/.vs/
 .vs/
 Hazel/bin/
 Hazel/bin-int/
+bin/
+bin-int/
 
 #Files
 *.user

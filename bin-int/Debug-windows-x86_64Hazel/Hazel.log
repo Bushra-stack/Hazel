@@ -1,8 +1,0 @@
-﻿  Application.cpp
-C:\Users\yasin\Documents\Hazel\Hazel\src\Hazel\Application.cpp(15,1): error C2857: '#include' statement specified with the /Ycstdafx.h command-line option was not found in the source file
-  Log.cpp
-C:\Users\yasin\Documents\Hazel\Hazel\src\Hazel\Log.h(16,42): warning C4251: 'Hazel::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Hazel::Log'
-C:\Users\yasin\Documents\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(34,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
-C:\Users\yasin\Documents\Hazel\Hazel\src\Hazel\Log.h(17,42): warning C4251: 'Hazel::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Hazel::Log'
-C:\Users\yasin\Documents\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(34,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
-C:\Users\yasin\Documents\Hazel\Hazel\src\Hazel\Log.cpp(19,1): error C2857: '#include' statement specified with the /Ycstdafx.h command-line option was not found in the source file
