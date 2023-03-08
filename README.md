@@ -56,3 +56,44 @@ A package manager is a system or set of tools used to automate installing, upgra
 Conan is a package manager that lets C and C++ developers capture artifacts created during builds of applications and libraries, storing them as a Conan Package. Developers can access Conan Packages stored in Conan Center, a central repository with hundreds of open source applications and libraries
 
 Conan, vcpkg, Spack, Hunter.
+
+
+## Exercise 3 
+## What is the difference between a dynamic linked library and a static library? 
+Static libraries, while reusable in multiple programs, are locked into a program at compile time. Dynamic, or shared libraries, on the other hand, exist as separate files outside of the executable file.
+ The difference between static and dynamic is when the linking happens. Static linking happens upon compilation, which means the program is 100% ready to run right away after compiling. Dynamic linking happens when the program runs, which means you have to have the library available to run the program.
+## Describe a logging system with your own words:
+The purpose of the logging system is to provide the user with feedback about the system. It creates an ongoing record of application events (error, info, fatal, critical, warn, trace) 
+## What is a Design Pattern? 
+In software engineering, a design pattern is a general repeatable solution to a commonly occurring problem in software design. A design pattern isn't a finished design that can be transformed directly into code. It is a description or template for how to solve a problem that can be used in many different situations.
+## Name and describe 2 Design Patterns (except façade or adapter):
+Creational design patterns: 
+* Abstract Factory
+Creates an instance of several families of classes
+* Builder
+Separates object construction from its representation
+* Factory Method
+Creates an instance of several derived classes
+* Object Pool
+Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
+* Prototype
+A fully initialized instance to be copied or cloned
+* Singleton
+A class of which only a single instance can exist
+Structural design patterns
+* Adapter
+Match interfaces of different classes
+* Bridge
+Separates an object’s interface from its implementation
+* Composite
+A tree structure of simple and composite objects
+* Decorator
+Add responsibilities to objects dynamically
+* Facade
+A single class that represents an entire subsystem
+* Flyweight
+A fine-grained instance used for efficient sharing
+* Private Class Data
+Restricts accessor/mutator access
+* Proxy
+An object representing another object
