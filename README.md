@@ -68,32 +68,35 @@ The purpose of the logging system is to provide the user with feedback about the
 In software engineering, a design pattern is a general repeatable solution to a commonly occurring problem in software design. A design pattern isn't a finished design that can be transformed directly into code. It is a description or template for how to solve a problem that can be used in many different situations.
 ## Name and describe 2 Design Patterns (except façade or adapter):
 Creational design patterns: 
+
 * Abstract Factory
-Creates an instance of several families of classes
+    Creates an instance of several families of classes
 * Builder
-Separates object construction from its representation
+    Separates object construction from its representation
 * Factory Method
-Creates an instance of several derived classes
+    Creates an instance of several derived classes
 * Object Pool
-Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
+    Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
 * Prototype
-A fully initialized instance to be copied or cloned
+    A fully initialized instance to be copied or cloned
 * Singleton
-A class of which only a single instance can exist
-Structural design patterns
+    A class of which only a single instance can exist
+
+Structural design patterns:
+
 * Adapter
-Match interfaces of different classes
+    Match interfaces of different classes
 * Bridge
-Separates an object’s interface from its implementation
+    Separates an object’s interface from its implementation
 * Composite
-A tree structure of simple and composite objects
+    A tree structure of simple and composite objects
 * Decorator
-Add responsibilities to objects dynamically
+    Add responsibilities to objects dynamically
 * Facade
-A single class that represents an entire subsystem
+    A single class that represents an entire subsystem
 * Flyweight
-A fine-grained instance used for efficient sharing
+    A fine-grained instance used for efficient sharing
 * Private Class Data
-Restricts accessor/mutator access
+    Restricts accessor/mutator access
 * Proxy
-An object representing another object
+    An object representing another object
