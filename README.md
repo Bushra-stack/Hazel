@@ -66,6 +66,7 @@ Static libraries, while reusable in multiple programs, are locked into a program
 The purpose of the logging system is to provide the user with feedback about the system. It creates an ongoing record of application events (error, info, fatal, critical, warn, trace) 
 ## What is a Design Pattern? 
 In software engineering, a design pattern is a general repeatable solution to a commonly occurring problem in software design. A design pattern isn't a finished design that can be transformed directly into code. It is a description or template for how to solve a problem that can be used in many different situations.
+
 ## Name and describe 2 Design Patterns (except façade or adapter):
 Creational design patterns: 
 
@@ -100,3 +101,23 @@ Structural design patterns:
     Restricts accessor/mutator access
 * Proxy
     An object representing another object
+    
+## Exercise 4
+## What is a precompiled header? Name pros and cons:
+
+Precompiled headers (PCH) are a performance feature supported by some compilers to compile a stable body of code, and store the compiled state of the code in a binary file. During subsequent compilations, the compiler will load the stored state, and continue compiling the specified file. Each subsequent compilation is faster because the stable code does not need to be recompiled.
+(+) if your builds are too slow, precompiled headers might speed them up.
+(-) More Makefile dependencies to get right; if they are wrong, you build the wrong thing fast
+(-) not every header can be precompiled
+
+## Describe the layer of abstraction with your own words
+The abstraction layer creates a separation between two things. For programming, this is often splitting tasks into separate entities
+Entity A fetches the resource.
+Entity B—now the abstraction—depends on the image to return from the first operation to then perform its second operation.
+
+## Name the SOLID principles and describe them briefly
+ingle responsibility principle
+open-closed principle,
+Liskov substitution principle, 
+interface segregation principle, 
+dependency inversion principle.
